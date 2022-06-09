@@ -1,30 +1,48 @@
-a:link { text-decoration: none; }
-a:visited { text-decoration: none; }
-a:hover { text-decoration: none; }
-a:active { text-decoration: none; }
 
 .top {
     background-color: #1f2937;
     color: whitesmoke;
 }
 
-.intro {
-    font-size: 48px;
-    font-weight:bolder;
-    color: #f9faf8;
-}
-
-#subtext {
-    font-size: 30px; 
-    font-weight: lighter;
-    text-indent: 100px;
-}
-
-.site-header {
+nav {
+    width: 90%;
+    padding-left: 30px;
+    padding-right: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 24px;
-    color: #f9faf8;
+  }
+
+  .logo {
+      display: inline-block;
+      font-size: 24px;
+      font-weight: bolder;
+      color: #f9faf8;
+  }
+
+  .nav-links {
+      display: flex;
+      list-style: none;
+  }
+
+  .nav-item a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+
+  .nav-item:hover {
+    background-color: white;
+  }
   
-}
+  .nav-item:hover a {
+    color: rgb(0, 0, 0);
+  }
+
+  .logo img {
+    width: 175px;
+    vertical-align: middle;
+  }
+
