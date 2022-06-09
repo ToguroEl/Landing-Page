@@ -1,0 +1,30 @@
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+.top {
+    background-color: #1f2937;
+    color: whitesmoke;
+}
+
+.intro {
+    font-size: 48px;
+    font-weight:bolder;
+    color: #f9faf8;
+}
+
+#subtext {
+    font-size: 30px; 
+    font-weight: lighter;
+    text-indent: 100px;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    color: #f9faf8;
+  
+}
