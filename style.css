@@ -47,14 +47,16 @@ nav {
     width: 175px;
     vertical-align: middle;
   }
-
-  .intro {
+/** testing
+  .top-info {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       width: 90%;
       padding-left: 30px;
       padding-right: 10px;
       padding-bottom: 100px;
+      line-height: 2.5em;
+      margin-left: 9%;
   }
 
   .intro h1 {
@@ -64,7 +66,13 @@ nav {
   #subtext {
       font-size: 24px;
       font-weight: lighter;
+      line-height: 0px;
   }
+
+  .first-image {
+    float: right;
+}
+
 
   #button1 {
     display: inline-block;
@@ -84,3 +92,30 @@ nav {
     text-decoration: none;
     color: antiquewhite;
   }
+**/
+.top-info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  line-height: 2.5em;
+  margin-left: 4%;
+}
+
+.top-text {
+  display: flex;
+  width: 300px;
+}
+
+.top-button {
+  display: flex;
+  align-self: flex-start;
+}
+
+.top-image {
+  display: flex;
+  align-self: flex-start;
+
+}
+
+/** you're on to something, just think CONTAINER, CHILDREN **/
