@@ -95,13 +95,49 @@ nav {
 **/
 .top-info {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
   line-height: 2.5em;
-  margin-left: 4%;
+  margin-left: 10%;
+  margin-right: 9%;
+  margin-bottom: 12%;
+  gap: 20px;
+  
 }
 
+#subtext {
+  inline-size: 100px;
+  width: 90px;
+}
+
+.top-image {
+  display: flex;
+  align-self: flex-start;
+  flex: 1;
+}
+
+#button1 {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #3882f6;
+  color: blanchedalmond;
+  text-align: center;
+  border: none;
+  padding: 10px 20px;
+  text-decoration: none;
+  width: 100px;
+  border-radius: 12px;
+}
+
+
+#button1 a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+/** 2 element mod 
 .top-text {
   display: flex;
   width: 300px;
@@ -117,5 +153,5 @@ nav {
   align-self: flex-start;
 
 }
-
+**/
 /** you're on to something, just think CONTAINER, CHILDREN **/
