@@ -2,6 +2,7 @@
 .top {
     background-color: #1f2937;
     color: whitesmoke;
+    padding-bottom: 40px;
 }
 
 nav {
@@ -59,17 +60,23 @@ nav {
   margin-right: 9%;
   margin-bottom: 5%;
   gap: 20px;
+  
+}
+
+.top-text h1 {
+  font-size: 48px;
+  font-weight: bolder;
 }
 
 #subtext {
   inline-size: 100px;
-  width: 90px;
+  width: 80px;
+  font-size: 18px;
 }
 
 .top-image {
   display: flex;
   align-self: flex-start;
-  flex: 1;
 }
 
 #button1 {
@@ -120,18 +127,36 @@ nav {
   gap: 20px;
 }
 
+.center img {
+  border: 5px solid #3882f6;
+  border-radius: 10px;
+}
 .text {
   width: 150px;
   text-align: center;
 }
 
-/** Testing without title
-.center h2 {
+/** QUOTE SECTION **/
+.quote-section {
   display: flex;
+  align-items: stretch;
   justify-content: center;
-  align-items: center;
+  background-color: #e5e7eb;
   font-size: 36px;
-  font-weight: bolder;
-  padding: 8px;
+  font-style: italic;
+  font-weight: lighter;
+  padding: 3%;
+  margin:auto;
 }
-**/
+
+.quote {
+  margin-left: 300px;
+  margin-right: 300px;
+  flex: 0 0 700px;
+  
+}
+
+.author {
+  text-align: center;
+  font-weight: bold;
+}
